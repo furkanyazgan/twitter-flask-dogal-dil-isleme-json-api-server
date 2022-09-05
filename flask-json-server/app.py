@@ -21,8 +21,8 @@ from os import kill, write
 
 from cleantext import clean
 
-auth = tweepy.OAuthHandler("BDaaNQyJ4HMyqi6l98IFsdjiq", "nU0wqWh3arcZ4sh3z9s9iWq0iX0ZQNXRWr0juNfRqD9qZO4wby", )
-auth.set_access_token("135998880-RJVLxR132GG0OnePovtWjlV4NnHwEQgIG8CQXOau", "oFRwXy3E6CX9PkrgWAoOLZ4ep4Dj8igrUK85irV9TsErf")
+auth = tweepy.OAuthHandler("*****************", )
+auth.set_access_token("**********", "************")
 api = tweepy.API(auth)
 
 
