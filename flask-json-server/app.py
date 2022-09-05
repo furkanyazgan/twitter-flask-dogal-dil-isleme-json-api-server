@@ -21,6 +21,7 @@ from os import kill, write
 
 from cleantext import clean
 
+#twitter keyleri
 auth = tweepy.OAuthHandler("*****************", )
 auth.set_access_token("**********", "************")
 api = tweepy.API(auth)
